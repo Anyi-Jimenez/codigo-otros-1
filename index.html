@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
+    <!--<link rel="stylesheet" href="assets/styles.css"> en esta línea no se esta referenciando correctamente la hoja de estilos, porque falta hacer reerencia a la carpeta de css-->
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>APIs</title>
 </head>
 <body>
     <p class="name"></p>
     <p class="blog"></p>
+    <!--Se está llamando una clase location en el JS pero no existe en html por lo que se agrega-->
+    <p class="location"></p>
 
-  <script src="../assets/js/app.js"></script>
+ <!--<script src="../assets/js/app.js"></script> se esta referenciando de manera incorrecta el JS--> 
+ <script src="./assets/js/app.js"></script>
 </body>
 </html>
